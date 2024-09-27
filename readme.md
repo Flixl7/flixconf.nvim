@@ -11,28 +11,28 @@ plugins are located in $XDG_CONFIG_HOME/nvim/lua/flix/plugins by default.
 installed plugins include:
 
 
-[onedarkpro.nvim](https://github.com/olimorris/onedarkpro.nvim)
+[onedarkpro.nvim](https://github.com/olimorris/onedarkpro.nvim)  
 
-[cutlass.nvim](https://github.com/gbprod/cutlass.nvim)
+[cutlass.nvim](https://github.com/gbprod/cutlass.nvim)  
 
-[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-[mason.nvim](https://github.com/williamboman/mason.nvim)
-[mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
-[cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
-[cmp-path](https://github.com/hrsh7th/cmp-path)
-[cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
-[nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-[LuaSnip](https://github.com/L3MON4D3/LuaSnip)
-[cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
-[fidget.nvim](https://github.com/j-hui/fidget.nvim)
+[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)  
+[mason.nvim](https://github.com/williamboman/mason.nvim)  
+[mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)  
+[cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)  
+[cmp-path](https://github.com/hrsh7th/cmp-path)  
+[cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)  
+[nvim-cmp](https://github.com/hrsh7th/nvim-cmp)  
+[LuaSnip](https://github.com/L3MON4D3/LuaSnip)  
+[cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)  
+[fidget.nvim](https://github.com/j-hui/fidget.nvim)  
 
-[lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
-[nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+[lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)  
+[nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)  
 
-[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
-[plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
+[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)  
+[plenary.nvim](https://github.com/nvim-lua/plenary.nvim)  
 
-[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)  
 
 
 note that the configurations for plugins happen in their respective lua files
