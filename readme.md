@@ -1,14 +1,14 @@
 Welcome to flixconfig v1.0
 
-the config is intended as a basic nvim config for myself.
-there might be redundancy here and there for now, I will work to fix this.
-the way this config is written does not necessarily follow best practices.
+the config is intended as a basic nvim config for myself.  
+there might be redundancy here and there for now, I will work to fix this.  
+the way this config is written does not necessarily follow best practices.  
 
-the plugin manager used is [lazy.nvim](https://github.com/folke/lazy.nvim).
-plugins are located in $XDG_CONFIG_HOME/nvim/lua/flix/plugins by default.
+the plugin manager used is [lazy.nvim](https://github.com/folke/lazy.nvim).  
+plugins are located in $XDG_CONFIG_HOME/nvim/lua/flix/plugins by default.  
 
 
-installed plugins include:
+installed plugins include:  
 
 
 [onedarkpro.nvim](https://github.com/olimorris/onedarkpro.nvim)  
@@ -35,19 +35,19 @@ installed plugins include:
 [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)  
 
 
-note that the configurations for plugins happen in their respective lua files
+note that the configurations for plugins happen in their respective lua files  
 
 
-to install this config, move the files from this repo to $XDG_CONFIG_HOME/nvim (if you havent changed the rtp)
-on most operating systems this is ~/.config/nvim by default
+to install this config, move the files from this repo to $XDG_CONFIG_HOME/nvim (if you havent changed the rtp)  
+on most operating systems this is ~/.config/nvim by default  
 
-afterwards, open nvim. you should see lazy installing itself as well as the plugins included in this config.
+afterwards, open nvim. you should see lazy installing itself as well as the plugins included in this config.  
 
-I also recommend doing :checkhealth afterwards to check your nvim for errors.
-this will also tell you missing things (one of the plugins needs ripgrep, for example)
+I also recommend doing :checkhealth afterwards to check your nvim for errors.  
+this will also tell you missing things (one of the plugins needs ripgrep, for example)  
 
 
-if you dislike the transparency in the terminal, that is currently located in the /lua/flix/plugins/colorschemeOneDarkPro.lua file
+if you dislike the transparency in the terminal, that is currently located in the /lua/flix/plugins/colorschemeOneDarkPro.lua file  
 just comment this part out:
 
       vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
