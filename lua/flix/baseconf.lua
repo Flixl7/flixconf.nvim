@@ -39,4 +39,3 @@ vim.opt.termguicolors = true
 -- use system clipboard
 vim.o.clipboard = 'unnamedplus'
 
---set buffernumber
