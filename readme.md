@@ -4,35 +4,35 @@ the config is intended as a basic nvim config for myself.
 there might be redundancy here and there for now, I will work to fix this.
 the way this config is written does not necessarily follow best practices.
 
-the plugin manager used is lazy.nvim.
+the plugin manager used is [lazy.nvim](https://github.com/folke/lazy.nvim).
 plugins are located in $XDG_CONFIG_HOME/nvim/lua/flix/plugins by default.
 
 
 installed plugins include:
 
 
-onedarkpro.nvim
+[onedarkpro.nvim](https://github.com/olimorris/onedarkpro.nvim)
 
-cutlass.nvim
+[cutlass.nvim](https://github.com/gbprod/cutlass.nvim)
 
-nvim-lspconfig
-mason.nvim
-mason-lspconfig.nvim
-cmp-nvim-lsp
-cmp-path
-cmp-cmdline
-nvim-cmp
-LuaSnip
-cmp_luasnip
-fidget.nvim
+[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+[mason.nvim](https://github.com/williamboman/mason.nvim)
+[mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
+[cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+[cmp-path](https://github.com/hrsh7th/cmp-path)
+[cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
+[nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+[LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+[cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
+[fidget.nvim](https://github.com/j-hui/fidget.nvim)
 
-lualine.nvim
-nvim-web-devicons
+[lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+[nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 
-telescope.nvim
-plenary.nvim
+[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+[plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 
-nvim-treesitter
+[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 
 note that the configurations for plugins happen in their respective lua files
